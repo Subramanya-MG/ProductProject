@@ -3,14 +3,21 @@ import time
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common import keys
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
+
+from Config.config import Test_Data
 
 
 class Base_Page:
 
     def __init__(self, driver):
         self.driver = driver
+        dict_d = {}
+        dict_d = Test_Data.getTestData(self, "BaseData", "test_URL")
+        self.driver.get(dict_d["name"])
 
     def enter_url_operation(self, url, locator):
         self.driver.get(url)
@@ -23,16 +30,13 @@ class Base_Page:
     def click_operation(self, locator):
         WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable(locator))
         WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located(locator)).click()
-        time.sleep(5)
 
     def clear_text_operation(self, locator):
         WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable(locator))
         WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located(locator)).clear()
-        time.sleep(5)
         # WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable(locator)).send_keys(
 
     def send_keys_operation(self, locator, text):
-        time.sleep(5)
         WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located(locator)).send_keys(text)
 
     def send_keys_js(self, locator, loc, keys):
@@ -79,3 +83,7 @@ class Base_Page:
             return True
         else:
             return False
+
+    def dropdown_operation(self, locator):
+        ele = WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located(locator))
+        return Select(ele)

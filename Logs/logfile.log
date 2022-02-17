@@ -1,35 +1,84 @@
-
-2022-02-16 13:16:13,272 :INFO : test_login_functionality :Into Grocery Section
-2022-02-16 13:16:13,278 :INFO : base_login_to_application :Getting Test Data
-2022-02-16 13:16:13,303 :INFO : base_login_to_application :Entering the url
-2022-02-16 13:16:16,939 :INFO : base_login_to_application :Entering the Username
-2022-02-16 13:19:23,187 :INFO : test_login_functionality :Into Grocery Section
-2022-02-16 13:19:23,191 :INFO : base_login_to_application :Getting Test Data
-2022-02-16 13:19:23,236 :INFO : base_login_to_application :Entering the url
-2022-02-16 13:19:26,741 :INFO : base_login_to_application :Entering the Username
-2022-02-16 13:19:31,901 :INFO : base_login_to_application :Entering the Password
-2022-02-16 13:19:36,998 :INFO : base_login_to_application :Clicking login button
-2022-02-16 13:22:27,301 :INFO : test_login_functionality :Into Grocery Section
-2022-02-16 13:22:27,315 :INFO : base_login_to_application :Getting Test Data
-2022-02-16 13:22:27,353 :INFO : base_login_to_application :Entering the url
-2022-02-16 13:22:30,423 :INFO : base_login_to_application :Entering the Username
-2022-02-16 13:22:35,569 :INFO : base_login_to_application :Entering the Password
-2022-02-16 13:22:40,670 :INFO : base_login_to_application :Clicking login button
-2022-02-16 13:24:31,827 :INFO : test_login_functionality :Into Grocery Section
-2022-02-16 13:24:31,828 :INFO : base_login_to_application :Getting Test Data
-2022-02-16 13:24:31,856 :INFO : base_login_to_application :Entering the url
-2022-02-16 13:24:35,130 :INFO : base_login_to_application :Entering the Username
-2022-02-16 13:24:40,287 :INFO : base_login_to_application :Entering the Password
-2022-02-16 13:24:45,386 :INFO : base_login_to_application :Clicking login button
-2022-02-16 14:14:58,101 :INFO : test_login_functionality :Into Grocery Section
-2022-02-16 14:14:58,113 :INFO : base_login_to_application :Getting Test Data
-2022-02-16 14:14:58,156 :INFO : base_login_to_application :Entering the url
-2022-02-16 14:15:02,180 :INFO : base_login_to_application :Entering the Username
-2022-02-16 14:15:07,312 :INFO : base_login_to_application :Entering the Password
-2022-02-16 14:15:12,409 :INFO : base_login_to_application :Clicking login button
-2022-02-16 14:16:16,907 :INFO : test_login_functionality :Into Grocery Section
-2022-02-16 14:16:16,919 :INFO : base_login_to_application :Getting Test Data
-2022-02-16 14:16:16,965 :INFO : base_login_to_application :Entering the url
-2022-02-16 14:16:20,689 :INFO : base_login_to_application :Entering the Username
-2022-02-16 14:16:25,818 :INFO : base_login_to_application :Entering the Password
-2022-02-16 14:16:30,908 :INFO : base_login_to_application :Clicking login button
+2022-02-17 18:28:49,609 :INFO : login1 :Login method is started
+2022-02-17 18:28:49,620 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 18:28:54,764 :INFO : login1 :User name is filled
+2022-02-17 18:28:59,867 :INFO : login1 :Password is entered
+2022-02-17 18:29:04,949 :INFO : login1 :Login button is clicked
+2022-02-17 18:29:04,950 :INFO : login1 :User is loged in successfully
+2022-02-17 18:29:04,991 :INFO : login1 :User is logged into his account successfully2022-02-17 19:10:27,971 :INFO : registration :Username is passed
+2022-02-17 19:10:33,073 :INFO : registration :Email is entered
+2022-02-17 19:10:38,142 :INFO : registration :First name is entered
+2022-02-17 19:10:43,222 :INFO : registration :Last name is entered
+2022-02-17 19:10:48,297 :INFO : registration :Phone number is entered
+2022-02-17 19:10:48,375 :INFO : registration :Batch is selected
+2022-02-17 19:10:53,474 :INFO : registration :Password is entered
+2022-02-17 19:10:58,575 :INFO : registration :Password is confirmed
+2022-02-17 19:11:03,673 :INFO : registration :Signup button is clicked
+2022-02-17 19:11:03,685 :INFO : registration :Title is verified. User is registered in successfully
+2022-02-17 19:11:23,923 :INFO : login1 :Login method is started
+2022-02-17 19:11:23,933 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 19:11:29,090 :INFO : login1 :User name is filled
+2022-02-17 19:11:34,168 :INFO : login1 :Password is entered
+2022-02-17 19:11:39,282 :INFO : login1 :Login button is clicked
+2022-02-17 19:11:39,282 :INFO : login1 :User is loged in successfully
+2022-02-17 19:11:39,314 :INFO : login1 :User is logged into his account successfully
+2022-02-17 19:12:22,437 :INFO : login1 :Login method is started
+2022-02-17 19:12:22,447 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 19:12:22,590 :INFO : login1 :User name is filled
+2022-02-17 19:12:22,660 :INFO : login1 :Password is entered
+2022-02-17 19:12:22,730 :INFO : login1 :Login button is clicked
+2022-02-17 19:12:22,730 :INFO : login1 :User is loged in successfully
+2022-02-17 19:12:24,208 :INFO : login1 :User is logged into his account successfully
+2022-02-17 19:12:49,390 :INFO : test_CompletedQuizCategory :Complete quiz method started
+2022-02-17 19:12:56,733 :INFO : login1 :Login method is started
+2022-02-17 19:12:56,741 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 19:12:56,886 :INFO : login1 :User name is filled
+2022-02-17 19:12:56,956 :INFO : login1 :Password is entered
+2022-02-17 19:12:57,030 :INFO : login1 :Login button is clicked
+2022-02-17 19:12:57,030 :INFO : login1 :User is loged in successfully
+2022-02-17 19:12:58,904 :INFO : login1 :User is logged into his account successfully
+2022-02-17 19:12:58,904 :INFO : test_CompletedQuizCategory :Login is done
+2022-02-17 19:12:58,974 :INFO : click_pending_quiz_button :Pending quiz button is clicked
+2022-02-17 19:13:00,134 :INFO : click_attempt_quiz_button :From pending quiz page
+2022-02-17 19:13:00,199 :INFO : click_attempt_quiz_button :user has entered the quiz
+2022-02-17 19:13:00,204 :INFO : take_quiz :From take quiz method in Quiz page
+2022-02-17 19:13:00,796 :INFO : take_quiz :Start button is clicked
+2022-02-17 19:13:01,485 :INFO : take_quiz :Question number 1 is answered
+2022-02-17 19:13:01,580 :INFO : take_quiz :Question number 2 is answered
+2022-02-17 19:13:01,673 :INFO : take_quiz :Question number 3 is answered
+2022-02-17 19:13:01,772 :INFO : take_quiz :Question number 4 is answered
+2022-02-17 19:13:32,458 :INFO : take_quiz :Successfully completed the quiz
+2022-02-17 19:13:32,550 :INFO : click_completed_quiz_button :Completed quiz button is clicked
+2022-02-17 19:13:33,162 :INFO : quiz_title_verification :str == Python Advanced
+2022-02-17 19:13:33,227 :INFO : quiz_title_verification :The quiz completed is present in completed quiz section
+2022-02-17 19:13:52,110 :INFO : test_filter_by_category :Complete quiz method started
+2022-02-17 19:13:58,881 :INFO : login1 :Login method is started
+2022-02-17 19:13:58,888 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 19:13:59,028 :INFO : login1 :User name is filled
+2022-02-17 19:13:59,096 :INFO : login1 :Password is entered
+2022-02-17 19:13:59,180 :INFO : login1 :Login button is clicked
+2022-02-17 19:13:59,180 :INFO : login1 :User is loged in successfully
+2022-02-17 19:14:00,977 :INFO : login1 :User is logged into his account successfully
+2022-02-17 19:14:01,048 :INFO : click_completed_quiz_button :Completed quiz button is clicked
+2022-02-17 19:14:01,087 :INFO : filter_by_category :{}
+2022-02-17 19:16:05,727 :INFO : test_filter_by_category :Complete quiz method started
+2022-02-17 19:16:12,541 :INFO : login1 :Login method is started
+2022-02-17 19:16:12,549 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 19:16:12,700 :INFO : login1 :User name is filled
+2022-02-17 19:16:12,765 :INFO : login1 :Password is entered
+2022-02-17 19:16:12,828 :INFO : login1 :Login button is clicked
+2022-02-17 19:16:12,828 :INFO : login1 :User is loged in successfully
+2022-02-17 19:16:15,729 :INFO : login1 :User is logged into his account successfully
+2022-02-17 19:16:15,799 :INFO : click_completed_quiz_button :Completed quiz button is clicked
+2022-02-17 19:16:15,831 :INFO : filter_by_category :{'name': 'Java'}
+2022-02-17 19:16:17,095 :INFO : filter_by_category : Filter is applied correctly by category
+2022-02-17 19:16:27,888 :INFO : test_filter_by_category :Complete quiz method started
+2022-02-17 19:16:35,422 :INFO : login1 :Login method is started
+2022-02-17 19:16:35,430 :INFO : login1 :{'name': 'kakashi', 'email': 'kakashi@gmail.com', 'firstname': 'kakashi', 'lastname': 'hatake', 'phone': 1234567890, 'batch': 'Batch', 'newPassword': 'password', 'confirmPassword': 'password', None: None}
+2022-02-17 19:16:35,577 :INFO : login1 :User name is filled
+2022-02-17 19:16:35,642 :INFO : login1 :Password is entered
+2022-02-17 19:16:35,726 :INFO : login1 :Login button is clicked
+2022-02-17 19:16:35,726 :INFO : login1 :User is loged in successfully
+2022-02-17 19:16:38,043 :INFO : login1 :User is logged into his account successfully
+2022-02-17 19:16:38,119 :INFO : click_pending_quiz_button :Pending quiz button is clicked
+2022-02-17 19:16:38,180 :INFO : filter_by_category :{'name': 'QA'}
+2022-02-17 19:16:38,987 :INFO : filter_by_category : Filter is applied correctly by category

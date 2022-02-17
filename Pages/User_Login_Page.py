@@ -3,8 +3,8 @@ from Config.config import Test_Data
 from Pages.Base_Page import Base_Page
 from Utilities.test_Base import test_Base
 
+class User_Login_Page(Base_Page):
 
-class Login_Page(Base_Page):
     LOGIN_POPUP = (By.XPATH, "// a[ @ href = '/account/login?ret=/']")
     EMAIL_ADDRESS = (By.XPATH, "// input[ @ class ='_2IX_2- VJZDxU']")
     PASSWORD = (By.XPATH, "// input[@ class ='_2IX_2- _3mctLh VJZDxU']")
